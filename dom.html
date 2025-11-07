@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <button>Subscribe</button>
+    <script>
+        const btn=document.querySelector('button');
+    btn.addEventListener('click', ()=>{
+        if (btn.innerText==='Subscribe'){
+            btn.innerText='Subscribed'
+            btn.style.backgroundColor='rgb(146,22,22)'
+        }else {
+            btn.innerText='Subscribe'
+            btn.style.backgroundColor='black'
+        }
+    })
+
+
+
+
+        /*console.log(document.querySelector('p').innerHTML)
+        console.log(document.querySelector('p').innerHTML='changed')
+        document.body.innerHTML='<button>Good job</button>';*/
+    </script>
+</body>
+</html>
